@@ -101,19 +101,8 @@ def get_plot(company, month, year):
     plt.savefig(f'{company}.png')
 
 
-# In[2]:
 
-
-get_plot('CDPROJEKT', ['may', 'june'], 2021)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
+get_plot('CDPROJEKT', ['may', 'june'], 2021).  #example for CDPROJEKT in May and June 2021
 
 
 
